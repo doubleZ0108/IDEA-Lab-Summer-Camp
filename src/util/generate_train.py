@@ -1,3 +1,7 @@
+"""
+根据文件夹中的图像和txt数据生成训练列表
+"""
+
 import os
 
 image_files = []

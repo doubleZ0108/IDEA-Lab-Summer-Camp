@@ -21,11 +21,13 @@ Table of Contents
 - **操作系统**：Ubuntu18.04.4
 - **版本**：opencv3.2.0
 
-> 【ref】
+> 【**reference**】
 >
 > https://zhuanlan.zhihu.com/p/76737748
 >
 > https://blog.csdn.net/public669/article/details/99044895
+>
+> https://blog.csdn.net/weixin_41851439/article/details/88712465
 
 
 
