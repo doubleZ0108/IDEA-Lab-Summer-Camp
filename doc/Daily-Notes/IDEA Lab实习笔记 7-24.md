@@ -33,8 +33,8 @@ wget http://pjreddie.com/media/files/darknet53.conv.74
 
 编写了两个脚本用来清洗之前的图像和label
 
-- find_classes.py: 用来找到之前的数据是对几类对象进行分类
-- match_img_label.py: 一一匹配图像和label，并删除多余的数据
+- [find_classes.py](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/src/util/find_classes.py): 用来找到之前的数据是对几类对象进行分类
+- [match_img_label.py](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/src/util/match_img_label.py): 一一匹配图像和label，并删除多余的数据
 
 #### .cfg
 
@@ -110,7 +110,7 @@ snow
 
 训练、验证用的对象列表，这里编写了一个脚本用于生成列表
 
-- generate_train.py: 根据文件夹中的图像和txt数据生成训练列表
+- [generate_train.py](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/src/util/generate_train.py): 根据文件夹中的图像和txt数据生成训练列表
 
 
 

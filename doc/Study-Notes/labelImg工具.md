@@ -1,6 +1,11 @@
 # labelImg工具的使用
 
-[toc]
+Table of Contents
+=================
+
+   * [labelImg工具的使用](#labelimg工具的使用)
+      * [安装步骤](#安装步骤)
+      * [使用方法](#使用方法)
 
 ------
 
