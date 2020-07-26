@@ -10,12 +10,22 @@ def compress(img):
 
 
 if __name__ == "__main__":
-    dirname = "src/util/"
-    filename = "large.jpg"
+    # dirname = "image/"
+    # filename = "test.jpg"
 
-    os.chdir(dirname)
-    (name, appidx) = os.path.splitext(filename)
-    img = Image.open(filename)
+    # os.chdir(dirname)
+    # (name, appidx) = os.path.splitext(filename)
+    # img = Image.open(filename)
 
-    compress_img = compress(img)
-    compress_img.save(name+"_compress"+appidx)
+    # compress_img = compress(img)
+    # compress_img.save(filename)
+
+    for filepath,dirnames,filenames in os.walk(r'image/'):
+        for filename in filenames:
+            if filename != "desktop.ini":
+                img_path = filepath + "/" + filename
+                (name, appidx) = os.path.splitext(img_path)
+                img = Image.open(img_path)
+
+                compress_img = compress(img)
+                compress_img.save(img_path)
