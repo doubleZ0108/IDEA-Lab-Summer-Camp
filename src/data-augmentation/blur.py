@@ -1,11 +1,12 @@
-'''
-高斯模糊
-'''
 import numpy as np
 import cv2
 from PIL import Image
 import shutil
 
+'''
+_blur
+    高斯模糊
+'''
 def blur(img):
     img = cv2.cvtColor(np.asarray(img),cv2.COLOR_RGB2BGR)
 

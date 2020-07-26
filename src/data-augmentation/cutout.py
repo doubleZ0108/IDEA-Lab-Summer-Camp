@@ -4,9 +4,10 @@ from PIL import Image
 import shutil
 
 '''
-随机抠图
+_cutout
+    随机抠除四个位置
+    用黑色/彩色矩形填充
 '''
-
 def cutout(img):
     min_size_ratio, max_size_ratio = 0.1, 0.3
     channel_wise = False

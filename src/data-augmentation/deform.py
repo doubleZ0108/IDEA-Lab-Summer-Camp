@@ -4,7 +4,10 @@ from PIL import Image
 import shutil
 
 '''
-图像拉伸
+_deform
+    图像拉伸
+    拉伸成长宽为原始宽的正方形图像
+    (需要重新手工标注)
 '''
 def deform(img):
     img = Image.fromarray(img)

@@ -1,12 +1,12 @@
-'''
-锐化
-'''
-
 import numpy as np
 import cv2
 from PIL import Image
 import shutil
 
+'''
+_sharpen
+    图像锐化
+'''
 def sharpen(img):
     img = cv2.cvtColor(np.asarray(img),cv2.COLOR_RGB2BGR)
 

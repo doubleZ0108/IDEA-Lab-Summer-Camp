@@ -3,6 +3,10 @@ import cv2
 from PIL import Image
 import shutil
 
+'''
+_contrast
+    对比度变换
+'''
 def contrast(img):
     img = Image.fromarray(img)
     range_contrast=(-50, 50)

@@ -3,6 +3,12 @@ import cv2
 from PIL import Image
 import shutil
 
+'''
+_crop
+    裁剪
+    取中心的80%部分，并进行随机便宜
+    (可能将目标对象裁减掉，因此采用手工重新标注)
+'''
 def crop(img):
     size = img.shape[:2]
     kernel_size = list(map(lambda x: int(x*0.8), size))

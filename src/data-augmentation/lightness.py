@@ -3,6 +3,10 @@ import cv2
 from PIL import Image
 import shutil
 
+'''
+_brightness
+    图像亮度增强
+'''
 def brightness(img):
     img = Image.fromarray(img)
 
@@ -15,7 +19,10 @@ def brightness(img):
 def saveBrightnessLabel(name):
     shutil.copyfile(name + ".txt", name + "_brightness.txt")
 
-
+'''
+_darkness
+    图像亮度降低
+'''
 def darkness(img):
     darkness = np.random.randint(1, 9) / 10
     darkness_img = img * darkness

@@ -5,7 +5,7 @@ import shutil
 
 '''
 _noise
-为图像添加噪声
+    为图像添加噪声
     随机生成5000个椒盐
 '''
 def addNoise(img):

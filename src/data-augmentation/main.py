@@ -23,6 +23,7 @@ if __name__ == "__main__":
     (name, appidx) = os.path.splitext(filename)
     img = np.array(Image.open(filename)) 
 
+    '''需要重新标注'''
     # # crop
     # crop_img = crop(img)
     # crop_img.save(name + "_crop" + appidx)
@@ -36,7 +37,7 @@ if __name__ == "__main__":
     # distortion_img.save(name + "_distortion" + appidx)
 
 
-
+    '''自动计算变换后的标签位置'''
     # # noise
     # noise_img = addNoise(img)
     # noise_img.save(name + "_noise" + appidx)
@@ -79,6 +80,6 @@ if __name__ == "__main__":
     # saveContrastLabel(name)
 
     # vignetting
-    vignetting_img = vignetting(img)
-    vignetting_img.save(name + "_vignetting" + appidx)
-    saveVignettingLabel(name)
+    # vignetting_img = vignetting(img)
+    # vignetting_img.save(name + "_vignetting" + appidx)
+    # saveVignettingLabel(name)
