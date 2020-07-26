@@ -1,7 +1,7 @@
 import shutil, os
 
 if __name__ == "__main__":
-    dirname = "image/origin/"
+    dirname = "data/hhh/"
     fresh_dirname = "image/origin/"
 
     for filename in os.listdir(dirname):

@@ -4,16 +4,14 @@
 
 import os
 
-image_files = []
-os.chdir("data/img/")
-for filename in os.listdir(os.getcwd()):
-    if not filename.endswith(".txt") and filename != ".DS_Store":
-        image_files.append("../../data/img/" + filename)
-os.chdir("..")
+img_dirs = ['main', 'man_labled', 'auto_generated', 'previous']
 
-with open("train.txt", "w") as outfile:
-    for image in image_files:
-        outfile.write(image)
-        outfile.write("\n")
-    outfile.close()
-os.chdir("..")
+with open("data/list.txt", "w") as outfile:
+    for img_dir in img_dirs:
+        image_files = []
+        os.chdir("data/" + img_dir + "/")
+        for filename in os.listdir(os.getcwd()):
+            if not filename.endswith(".txt") and filename != ".DS_Store":
+                # image_files.append("../../data/img/" + filename)
+                outfile.write("../../data/"+img_dir+"/" + filename + "\n")
+        os.chdir("../../")

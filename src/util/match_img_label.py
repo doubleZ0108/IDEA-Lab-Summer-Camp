@@ -6,7 +6,7 @@ import os
 
 pics = []
 txts = []
-os.chdir("../data/img")
+os.chdir("data/hhh/")
 for filename in os.listdir(os.getcwd()):
     (name, appidx) = os.path.splitext(filename)
 

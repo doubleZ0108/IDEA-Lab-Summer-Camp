@@ -3,6 +3,10 @@ import cv2
 from PIL import Image
 import shutil
 
+'''
+_vignetting
+    渐晕
+'''
 def vignetting(img):
     ratio_min_dist=0.2
     range_vignette=np.array((0.2, 0.8))

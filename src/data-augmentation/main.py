@@ -17,7 +17,7 @@ from vignetting import *
 
 if __name__ == "__main__":
     dirname = "src/data-augmentation/"
-    filename = "test.jpg"
+    filename = "demo.jpg"
 
     os.chdir(dirname)
     (name, appidx) = os.path.splitext(filename)
