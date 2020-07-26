@@ -11,6 +11,9 @@ from crop import *
 from cutout import *
 from lightness import *
 from contrast import *
+from deform import *
+from distortion import *
+from vignetting import *
 
 if __name__ == "__main__":
     dirname = "src/data-augmentation/"
@@ -19,6 +22,20 @@ if __name__ == "__main__":
     os.chdir(dirname)
     (name, appidx) = os.path.splitext(filename)
     img = np.array(Image.open(filename)) 
+
+    # # crop
+    # crop_img = crop(img)
+    # crop_img.save(name + "_crop" + appidx)
+
+    # # deform
+    # deform_img = deform(img)
+    # deform_img.save(name + "_deform" + appidx)
+
+    # # distortion
+    # distortion_img = distortion(img)
+    # distortion_img.save(name + "_distortion" + appidx)
+
+
 
     # # noise
     # noise_img = addNoise(img)
@@ -40,10 +57,6 @@ if __name__ == "__main__":
     # blur_img.save(name + "_blur" + appidx)
     # saveBlurLabel(name)
 
-    # # crop
-    # crop_img = crop(img)
-    # crop_img.save(name + "_crop" + appidx)
-
     # # cutout
     # cutout_img = cutout(img)
     # cutout_img.save(name + "_cutout" + appidx)
@@ -55,12 +68,17 @@ if __name__ == "__main__":
     # brightness_img.save(name + "_brightness" + appidx)
     # saveBrightnessLabel(name)
 
-    # ## darkness
+    ## darkness
     # darkness_img = darkness(img)
     # darkness_img.save(name + "_darkness" + appidx)
     # saveDarknessLabel(name)
 
     # contrast
-    contrast_img = contrast(img)
-    contrast_img.save(name + "_contrast" + appidx)
-    saveContrastLabel(name)
+    # contrast_img = contrast(img)
+    # contrast_img.save(name + "_contrast" + appidx)
+    # saveContrastLabel(name)
+
+    # vignetting
+    vignetting_img = vignetting(img)
+    vignetting_img.save(name + "_vignetting" + appidx)
+    saveVignettingLabel(name)

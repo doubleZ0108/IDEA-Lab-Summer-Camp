@@ -1,17 +1,17 @@
-
+import numpy as np
+import cv2
+from PIL import Image
+import shutil
 
 '''
 图像拉伸
 '''
 def deform(img):
-    w, h = image.size
-    w = int(w)
-    h = int(h)
+    img = Image.fromarray(img)
+    w, h = img.size[:2]
+
     # 拉伸成宽为w的正方形
-    out_ww = image.resize((int(w), int(w)))
-    savename = self.get_savename(operate + '_ww')
-    out_ww.save(savename, quality=100)
-    # 拉伸成宽为h的正方形
-    out_ww = image.resize((int(h), int(h)))
-    savename = self.get_savename(operate + '_hh')
-    out_ww.save(savename, quality=100)
+    deform_img = img.resize((int(w), int(w)))
+
+    return deform_img
+    
