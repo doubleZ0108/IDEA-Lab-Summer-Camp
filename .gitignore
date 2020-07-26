@@ -7,3 +7,8 @@ test.jpg
 test.txt
 desktop.ini
 image/
+
+data/main/
+data/man_labled/
+data/auto_generated/
+data/previous
