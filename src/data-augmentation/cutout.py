@@ -16,7 +16,7 @@ def cutout(img):
 
     size = np.array(img.shape[:2])
     mini, maxi = min_size_ratio * size, max_size_ratio * size
-
+    cutout_img = img
     for _ in range(max_crop):
         # random size
         h = np.random.randint(mini[0], maxi[0])
@@ -27,11 +27,11 @@ def cutout(img):
 
         if channel_wise:
             c = np.random.randint(0, img.shape[-1])
-            img[shift_h:shift_h+h, shift_w:shift_w+w, c] = replacement
+            cutout_img[shift_h:shift_h+h, shift_w:shift_w+w, c] = replacement
         else:
-            img[shift_h:shift_h+h, shift_w:shift_w+w] = replacement
+            cutout_img[shift_h:shift_h+h, shift_w:shift_w+w] = replacement
 
-    return Image.fromarray(np.uint8(img))
+    return Image.fromarray(np.uint8(cutout_img))
 
 def saveCutoutLabel(name):
     shutil.copyfile(name + ".txt", name + "_cutout.txt")

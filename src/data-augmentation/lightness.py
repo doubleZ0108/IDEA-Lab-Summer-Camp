@@ -11,7 +11,6 @@ def brightness(img):
     img = Image.fromarray(img)
 
     brightness = 1 + np.random.randint(1, 9) / 10
-    print(brightness)
     brightness_img = img.point(lambda p: p * brightness)
 
     return Image.fromarray(np.uint8(brightness_img))

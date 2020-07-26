@@ -24,62 +24,62 @@ if __name__ == "__main__":
     img = np.array(Image.open(filename)) 
 
     '''需要重新标注'''
-    # # crop
-    # crop_img = crop(img)
-    # crop_img.save(name + "_crop" + appidx)
+    # crop
+    crop_img = crop(np.copy(img))
+    crop_img.save(name + "_crop" + appidx)
 
-    # # deform
-    # deform_img = deform(img)
-    # deform_img.save(name + "_deform" + appidx)
+    # deform
+    deform_img = deform(np.copy(img))
+    deform_img.save(name + "_deform" + appidx)
 
-    # # distortion
-    # distortion_img = distortion(img)
-    # distortion_img.save(name + "_distortion" + appidx)
+    # distortion
+    distortion_img = distortion(np.copy(img))
+    distortion_img.save(name + "_distortion" + appidx)
 
 
     '''自动计算变换后的标签位置'''
-    # # noise
-    # noise_img = addNoise(img)
-    # noise_img.save(name + "_noise" + appidx)
-    # saveNoiseLabel(name)
+    # noise
+    noise_img = addNoise(np.copy(img))
+    noise_img.save(name + "_noise" + appidx)
+    saveNoiseLabel(name)
 
-    # # flip
-    # flip_img = flip(img)
-    # flip_img.save(name + "_flip" + appidx)
-    # saveFlipLabel(name)
+    # flip
+    flip_img = flip(np.copy(img))
+    flip_img.save(name + "_flip" + appidx)
+    saveFlipLabel(name)
 
-    # # sharpen
-    # sharpen_img = sharpen(img)
-    # sharpen_img.save(name + "_sharpen" + appidx)
-    # saveSharpenLabel(name)
+    # sharpen
+    sharpen_img = sharpen(np.copy(img))
+    sharpen_img.save(name + "_sharpen" + appidx)
+    saveSharpenLabel(name)
 
-    # # blur
-    # blur_img = blur(img)
-    # blur_img.save(name + "_blur" + appidx)
-    # saveBlurLabel(name)
+    # blur
+    blur_img = blur(np.copy(img))
+    blur_img.save(name + "_blur" + appidx)
+    saveBlurLabel(name)
 
-    # # cutout
-    # cutout_img = cutout(img)
-    # cutout_img.save(name + "_cutout" + appidx)
-    # saveCutoutLabel(name)
+    # cutout
+    cutout_img = cutout(np.copy(img))
+    cutout_img.save(name + "_cutout" + appidx)
+    saveCutoutLabel(name)
 
     # lightness
-    # ## brightness
-    # brightness_img = brightness(img)
-    # brightness_img.save(name + "_brightness" + appidx)
-    # saveBrightnessLabel(name)
+    ## brightness
+    brightness_img = brightness(np.copy(img))
+    brightness_img.save(name + "_brightness" + appidx)
+    saveBrightnessLabel(name)
 
     ## darkness
-    # darkness_img = darkness(img)
-    # darkness_img.save(name + "_darkness" + appidx)
-    # saveDarknessLabel(name)
+    darkness_img = darkness(np.copy(img))
+    darkness_img.save(name + "_darkness" + appidx)
+    saveDarknessLabel(name)
 
     # contrast
-    # contrast_img = contrast(img)
-    # contrast_img.save(name + "_contrast" + appidx)
-    # saveContrastLabel(name)
+    contrast_img = contrast(np.copy(img))
+    contrast_img.save(name + "_contrast" + appidx)
+    saveContrastLabel(name)
 
     # vignetting
-    # vignetting_img = vignetting(img)
-    # vignetting_img.save(name + "_vignetting" + appidx)
-    # saveVignettingLabel(name)
+    vignetting_img = vignetting(np.copy(img))
+    vignetting_img.save(name + "_vignetting" + appidx)
+    saveVignettingLabel(name)
