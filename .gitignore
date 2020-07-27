@@ -15,3 +15,6 @@ data/previous
 
 pre/*.pptx
 pre/*.ppt
+
+*.mp4
+*.avi
