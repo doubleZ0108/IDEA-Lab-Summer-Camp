@@ -12,3 +12,6 @@ data/main/
 data/man_labled/
 data/auto_generated/
 data/previous
+
+pre/*.pptx
+pre/*.ppt

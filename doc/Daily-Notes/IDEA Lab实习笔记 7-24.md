@@ -101,7 +101,7 @@ backup = backup
 sheep
 giraffe
 cloud
-snow
+people
 ```
 
 

@@ -11,6 +11,6 @@ train
 test
 
 ```bash
-./darknet detector test ../../data/obj.data cfg/yolov3_custom_test.cfg backup/yolov3_custom_last.weights ../../data/test.jpg -thresh 0.25 -dont-show
+./darknet detector test ../../data/obj.data cfg/yolov3_custom_test.cfg backup/yolov3_custom_last.weights ../../data/demo.jpg -thresh 0.25 -dont-show
 ```
 
