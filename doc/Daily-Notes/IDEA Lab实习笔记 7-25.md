@@ -1,6 +1,26 @@
 # IDEA Lab实习笔记 7-25
 
-[toc]
+Table of Contents
+=================
+
+   * [IDEA Lab实习笔记 7-25](#idea-lab实习笔记-7-25)
+      * [Yolov4环境搭建](#yolov4环境搭建)
+         * [Cloning and Building Darknet](#cloning-and-building-darknet)
+         * [Pre-trained yolov4 weights](#pre-trained-yolov4-weights)
+         * [Test env Enabled](#test-env-enabled)
+         * [Multiple Images at Once](#multiple-images-at-once)
+      * [Yolo command line flags](#yolo-command-line-flags)
+      * [Yolov4训练自定义数据集](#yolov4训练自定义数据集)
+         * [Gathering and Labeling a Custom Dataset](#gathering-and-labeling-a-custom-dataset)
+            * [Using Google's Open Images Dataset](#using-googles-open-images-dataset)
+            * [Manually Labeling Images with labelImg(Annotation Tool)](#manually-labeling-images-with-labelimgannotation-tool)
+         * [Configuring Files for Training](#configuring-files-for-training)
+            * [cfg file](#cfg-file)
+            * [obj.names](#objnames)
+            * [obj.data](#objdata)
+            * [train.txt and test.txt](#traintxt-and-testtxt)
+         * [Train Custom Object Detector](#train-custom-object-detector)
+         * [Checking the mAP of the Model](#checking-the-map-of-the-model)
 
 ------
 

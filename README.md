@@ -1,6 +1,12 @@
 # IDEA Lab暑期实习
 
-[toc]
+Table of Contents
+=================
+
+   * [IDEA Lab暑期实习](#idea-lab暑期实习)
+      * [实习报告 | Internship Report](#实习报告--internship-report)
+      * [学习笔记 | Study Notes](#学习笔记--study-notes)
+      * [关于作者 | About the Auther](#关于作者--about-the-auther)
 
 ------
 
@@ -18,7 +24,7 @@
 
 - [IDEA Lab实习笔记 7-26](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/doc/Daily-Notes/IDEA%20Lab实习笔记%207-26.md)
 
-- [IDEA Lab实习汇报](#)
+- [IDEA Lab第一周实习汇报](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/pre/week1.pdf)
 
   -----
 

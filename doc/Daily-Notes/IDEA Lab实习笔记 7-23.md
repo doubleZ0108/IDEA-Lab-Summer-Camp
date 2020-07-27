@@ -1,6 +1,18 @@
 # IDEA Lab实习笔记 7-23
 
-[toc]
+Table of Contents
+=================
+
+   * [IDEA Lab实习笔记 7-23](#idea-lab实习笔记-7-23)
+      * [服务器环境搭建](#服务器环境搭建)
+         * [远程服务器](#远程服务器)
+            * [ssh](#ssh)
+            * [ftp](#ftp)
+         * [依赖安装](#依赖安装)
+      * [Yolov3环境搭建](#yolov3环境搭建)
+         * [Cloning and Building Darknet](#cloning-and-building-darknet)
+         * [Download pretrained YOLOv3 weights](#download-pretrained-yolov3-weights)
+            * [Run Detections with Darknet and YOLOv3](#run-detections-with-darknet-and-yolov3)
 
 ------
 
