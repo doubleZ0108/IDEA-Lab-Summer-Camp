@@ -1,4 +1,0 @@
-data/person.jpg
-data/horses.jpg
-data/giraffe.jpg
-data/dog.jpg
