@@ -1,18 +1,14 @@
 # IDEA Lab实习笔记 7-23
 
-Table of Contents
-=================
-
-   * [IDEA Lab实习笔记 7-23](#idea-lab实习笔记-7-23)
-      * [服务器环境搭建](#服务器环境搭建)
-         * [远程服务器](#远程服务器)
-            * [ssh](#ssh)
-            * [ftp](#ftp)
-         * [依赖安装](#依赖安装)
-      * [Yolov3环境搭建](#yolov3环境搭建)
-         * [Cloning and Building Darknet](#cloning-and-building-darknet)
-         * [Download pretrained YOLOv3 weights](#download-pretrained-yolov3-weights)
-            * [Run Detections with Darknet and YOLOv3](#run-detections-with-darknet-and-yolov3)
+* [服务器环境搭建](#服务器环境搭建)
+   * [远程服务器](#远程服务器)
+      * [ssh](#ssh)
+      * [ftp](#ftp)
+   * [依赖安装](#依赖安装)
+* [Yolov3环境搭建](#yolov3环境搭建)
+   * [Cloning and Building Darknet](#cloning-and-building-darknet)
+   * [Download pretrained YOLOv3 weights](#download-pretrained-yolov3-weights)
+      * [w](#run-detections-with-darknet-and-yolov3)
 
 ------
 
@@ -73,7 +69,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 
 ```bash
 # run darknet detection
-!./darknet detect cfg/yolov3.cfg yolov3.weights data/person.jpg
+./darknet detect cfg/yolov3.cfg yolov3.weights data/person.jpg
 ```
 
 <img src="IDEA Lab实习笔记 7-23.assets/image-20200723200009451.png" alt="image-20200723200009451" style="zoom:50%;" />

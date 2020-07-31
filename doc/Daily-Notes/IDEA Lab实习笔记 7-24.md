@@ -1,19 +1,15 @@
 # IDEA Lab实习笔记 7-24
 
-Table of Contents
-=================
-
-   * [IDEA Lab实习笔记 7-24](#idea-lab实习笔记-7-24)
-      * [Yolov3训练自定义数据集](#yolov3训练自定义数据集)
-         * [pre-trained weights](#pre-trained-weights)
-         * [data](#data)
-            * [labeled custom dataset](#labeled-custom-dataset)
-            * [.cfg](#cfg)
-            * [obj.data](#objdata)
-            * [obj.names](#objnames)
-            * [train.txt](#traintxt)
-         * [Train训练](#train训练)
-         * [Test测试](#test测试)
+* [Yolov3训练自定义数据集](#yolov3训练自定义数据集)
+   * [pre-trained weights](#pre-trained-weights)
+   * [data](#data)
+      * [labeled custom dataset](#labeled-custom-dataset)
+      * [.cfg](#cfg)
+      * [obj.data](#objdata)
+      * [obj.names](#objnames)
+      * [train.txt](#traintxt)
+   * [Train训练](#train训练)
+   * [Test测试](#test测试)
 
 ------
 

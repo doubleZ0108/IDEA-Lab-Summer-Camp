@@ -1,13 +1,16 @@
 # IDEA Lab暑期实习
 
-[toc]
+* [实习报告 | Reports](#实习报告--reports)
+* [学习笔记 | Study Notes](#学习笔记--study-notes)
+* [实习成果 | Achivements](#实习成果--achivements)
+   * [第一周(7.22~7.27)](#第一周722727)
+* [关于作者 | About the Auther](#关于作者--about-the-auther)
 
 ------
 
 ## 实习报告 | Reports
 
 - [暑期实习任务清单](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/doc/Misson/暑期实习任务清单.md)
-
 - [IDEA Lab实习笔记 7-23](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/doc/Daily-Notes/IDEA%20Lab实习笔记%207-23.md)
   - 服务器环境搭建
   - Yolov3环境搭建
@@ -22,8 +25,8 @@
   - 数据集标注
   - 数据集训练
 - [IDEA Lab第一周实习汇报](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/pre/week1.pdf)
-
-- 
+- [实习报告](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/doc/Report/张喆-实习报告.pdf)
+- [Internship Report](https://github.com/doubleZ0108/IDEA-Lab-Summer-Camp/blob/master/doc/Report/Zhe%20ZHANG%20-%20Intership%20Report.pdf)
 
 <br/>
 

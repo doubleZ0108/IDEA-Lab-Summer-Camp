@@ -1,13 +1,9 @@
 # IDEA Lab实习笔记 7-25
 
-Table of Contents
-=================
-
-   * [IDEA Lab实习笔记 7-25](#idea-lab实习笔记-7-25)
-      * [数据集拍摄](#数据集拍摄)
-      * [数据集扩充](#数据集扩充)
-      * [数据集标注](#数据集标注)
-      * [数据集训练](#数据集训练)
+* [数据集拍摄](#数据集拍摄)
+* [数据集扩充](#数据集扩充)
+* [数据集标注](#数据集标注)
+* [数据集训练](#数据集训练)
 
 ------
 
@@ -19,15 +15,15 @@ Table of Contents
 
 - 辅助设备：DJI OSMO Mobile3
 
-  <img src="IDEA Lab实习笔记 7-26.assets/image-20200726215156945.png" alt="image-20200726215156945" width="15%;" />
+  <img src="IDEA Lab实习笔记 7-26.assets/image-20200726215156945.png" alt="image-20200726215156945" width="30%;" />
 
 在拍摄的时候尽可能使的画面稳定，iso和曝光大致相同，且不同角度尽可能反映好玩具的不同侧面的样子，因此采用云台的自动跟踪模式进行焦点跟踪
 
-<img src="IDEA Lab实习笔记 7-26.assets/IMG_3864.PNG" alt="IMG_3864" width=" 33%;" />
+<img src="IDEA Lab实习笔记 7-26.assets/IMG_3864.PNG" alt="IMG_3864" width=" 40%;" />
 
 同时边拍照边倒入电脑看效果，并记录拍摄过程中的一些图片数量等信息，方便后期进行数据清洗
 
-<img src="IDEA Lab实习笔记 7-26.assets/image-20200726215125678.png" alt="image-20200726215125678" width=" 15%;" />
+<img src="IDEA Lab实习笔记 7-26.assets/image-20200726215125678.png" alt="image-20200726215125678" width="40%;" />
 
 由于并不想在真实环境中拍摄太多，因此只选取了两个场景
 
@@ -36,7 +32,7 @@ Table of Contents
 
 这两个场景分别与长颈鹿、云与羊颜色相近，也进一步加强目标检测网络的能力
 
-<img src="IDEA Lab实习笔记 7-26.assets/image-20200726215112598.png" alt="image-20200726215112598" width="33%;" />
+<img src="IDEA Lab实习笔记 7-26.assets/image-20200726215112598.png" alt="image-20200726215112598" width="50%;" />
 
 最终筛除掉一些比较劣质的数据，共得到93张有效数据，数量并不是很多，这是因为想通过学习数据集扩充的方法减少人力劳动。
 
@@ -73,13 +69,7 @@ Table of Contents
 >
 > 随机裁剪带来很多奇怪的数据，对网络的训练会造成负面的影响
 >
-> <img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0028.jpg" alt="2Rotatetf_0028" width="50%;" />
->
-> <img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0029.jpg" alt="2Rotatetf_0029" width="20%;" />
->
-> <img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0030.jpg" alt="2Rotatetf_0030" width="50%;" />
->
-> <img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0039.jpg" alt="2Rotatetf_0039" width="50%;" />
+> <img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0028.jpg" alt="2Rotatetf_0028" width="50%;" /><img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0029.jpg" alt="2Rotatetf_0029" width="20%;" /><img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0030.jpg" alt="2Rotatetf_0030" width="50%;" /><img src="IDEA Lab实习笔记 7-26.assets/2Rotatetf_0039.jpg" alt="2Rotatetf_0039" width="50%;" />
 
 ## 数据集标注
 
