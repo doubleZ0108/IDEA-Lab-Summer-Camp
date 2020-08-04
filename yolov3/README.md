@@ -16,7 +16,7 @@ test
 
 
 
-test for train
+test for video
 
 ```bash
 ./darknet detector demo ../../data/obj.data cfg/yolov3_custom.cfg backup/yolov3_custom_last.weights -thresh 0.5 -dont_show ../../data/demo.mp4 -i 0 -out_filename results.avi
